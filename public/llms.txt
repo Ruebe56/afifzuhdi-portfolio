@@ -1,11 +1,11 @@
 # Afif Zuhdi
 
-> Back-end developer and network engineer based in Alor Setar, Kedah, Malaysia. 3 years of freelance experience building websites, full-stack web apps, business systems and AI automation. Co-founder of Iqbal Media Enterprise.
+> Back-end and full-stack developer based in Alor Setar, Kedah, Malaysia. 3 years of freelance experience building websites, web apps, business systems and AI automation. Co-founder of Iqbal Media Enterprise.
 
 ## About
 - Name: Afif Zuhdi (full name: Afif Zuhdi bin Suhardi)
 - Location: Alor Setar, Kedah, Malaysia. Works with clients in Kedah and across Malaysia.
-- Roles: Back-End Developer, Network Engineer, Full-Stack Developer
+- Roles: Back-End Developer, Full-Stack Developer
 - Company: Co-founder of Iqbal Media Enterprise (https://iqbalmedia.net/): a startup media company focused on websites, systems, media and photography
 - Education: Diploma in Computer Systems & Networking, Kolej Poly-Tech MARA (KPTM) Alor Setar, 2023. Bachelor of Computer Science (Hons) in Networking, Universiti Teknologi MARA (UiTM), expected 2027.
 - Languages: English and Malay (fluent), Indonesian (intermediate), Japanese and Mandarin (beginner)
@@ -33,7 +33,7 @@
 PHP, Laravel, Python, Django, REST APIs, MySQL/MariaDB, PostgreSQL, Docker, Git, Linux hosting, Vue, React, Tailwind, routing and switching, VoIP, network security.
 
 ## Contact
-- Website: https://www.afifzuhdi.com/
+- Website: https://www.afifzuhdi.com/ (Malay version: https://www.afifzuhdi.com/ms/)
 - Email: afif.zuhdi56@gmail.com
 - WhatsApp: +60 11-5153 7598
 - GitHub: https://github.com/Ruebe56

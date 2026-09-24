@@ -29,6 +29,8 @@
   .btn--ghost { border: 1px solid var(--line2); background: rgba(255,255,255,.03); }
   .btn--ghost:hover { border-color: rgba(255,255,255,.3); }
   .nav .btn { padding: 9px 16px; }
+  .lang-switch { font-size: 12px; letter-spacing: .08em; color: var(--muted); border: 1px solid var(--line2); border-radius: 8px; padding: 6px 9px; }
+  .lang-switch:hover { color: var(--ink); border-color: rgba(255,255,255,.3); }
 
   /* hero */
   .hero { padding-block: 40px; display: grid; grid-template-columns: 1.05fr .95fr; gap: 56px; align-items: center; }
@@ -173,7 +175,7 @@
     .about, .edu, .skills, .goals, .role { grid-template-columns: 1fr; }
     .role { gap: 10px; }
     .ev { grid-template-columns: 1fr; gap: 4px; }
-    .nav nav a:not(.btn) { display: none; }
+    .nav nav a:not(.btn):not(.lang-switch) { display: none; }
   }
   @media (max-width: 620px) {
     .work { grid-template-columns: 1fr; }

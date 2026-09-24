@@ -8,7 +8,7 @@ import './style.css';
   const lines = [
     ['p', '$ '], ['v', 'whoami\n'],
     ['k', 'name     '], ['v', 'Afif Zuhdi\n'],
-    ['k', 'role     '], ['v', 'Back-end dev · Network engineer\n'],
+    ['k', 'role     '], ['v', 'Back-end · Full-stack dev\n'],
     ['k', 'exp      '], ['v', '3 years freelance\n'],
     ['k', 'company  '], ['v', 'Iqbal Media Enterprise\n'],
     ['k', 'study    '], ['v', 'CS (Hons) Networking, 2027\n'],
@@ -32,3 +32,8 @@ import './style.css';
   document.querySelectorAll('.card').forEach(t => t.addEventListener('pointermove', e => {
     const r = t.getBoundingClientRect(); t.style.setProperty('--x', (e.clientX - r.left) + 'px'); t.style.setProperty('--y', (e.clientY - r.top) + 'px');
   }));
+
+// Remember an explicit language choice; the inline head script honours it on the next visit.
+document.querySelectorAll('a[data-lang]').forEach((a) => a.addEventListener('click', () => {
+  try { localStorage.setItem('lang', a.dataset.lang); } catch (e) {}
+}));
