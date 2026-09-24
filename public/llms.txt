@@ -6,7 +6,7 @@
 - Name: Afif Zuhdi (full name: Afif Zuhdi bin Suhardi)
 - Location: Alor Setar, Kedah, Malaysia. Works with clients in Kedah and across Malaysia.
 - Roles: Back-End Developer, Network Engineer, Full-Stack Developer
-- Company: Co-founder of Iqbal Media Enterprise (https://iqbalmedia.net/): websites and systems, photography, video editing, cybersecurity
+- Company: Co-founder of Iqbal Media Enterprise (https://iqbalmedia.net/): a startup media company focused on websites, systems, media and photography
 - Education: Diploma in Computer Systems & Networking, Kolej Poly-Tech MARA (KPTM) Alor Setar, 2023. Bachelor of Computer Science (Hons) in Networking, Universiti Teknologi MARA (UiTM), expected 2027.
 - Languages: English and Malay (fluent), Indonesian (intermediate), Japanese and Mandarin (beginner)
 
