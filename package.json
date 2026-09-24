@@ -1,0 +1,19 @@
+{
+  "name": "afifzuhdi-site",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5190",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 5191"
+  },
+  "devDependencies": {
+    "vite": "^8.3.0"
+  },
+  "dependencies": {
+    "@fontsource-variable/bricolage-grotesque": "^5.3.0",
+    "@fontsource-variable/hanken-grotesk": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0"
+  }
+}
