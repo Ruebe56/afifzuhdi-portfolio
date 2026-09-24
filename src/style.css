@@ -51,7 +51,7 @@
     box-shadow: 0 60px 100px -50px rgba(0,0,0,.9), 0 0 0 1px rgba(243,181,74,.06); }
   .frame::before { content: ""; position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px); background-size: 32px 32px; mask-image: radial-gradient(circle at 50% 40%, #000, transparent 75%); }
   .frame::after { content: ""; position: absolute; inset: auto 0 0 0; height: 28%; background: linear-gradient(transparent, rgba(10,11,13,.85)); }
-  .frame img { position: relative; width: 100%; height: 100%; object-fit: cover; object-position: 50% 20%; display: block; filter: saturate(.95) contrast(1.03); }
+  .frame img { position: relative; width: 100%; height: 100%; object-fit: cover; object-position: 50% 100%; display: block; filter: saturate(.95) contrast(1.03); }
   .badge { position: absolute; z-index: 2; background: rgba(20,21,25,.9); border: 1px solid var(--line2); backdrop-filter: blur(10px); border-radius: 14px; padding: 10px 14px; font-size: 13px; box-shadow: 0 20px 40px -20px rgba(0,0,0,.8); animation: float 7s ease-in-out infinite; }
   .badge b { display: block; font: 600 15px "Bricolage Grotesque Variable", sans-serif; color: var(--ink); }
   .badge span { color: var(--dim); font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; }
