@@ -8,10 +8,11 @@ import './style.css';
   const lines = [
     ['p', '$ '], ['v', 'whoami\n'],
     ['k', 'name     '], ['v', 'Afif Zuhdi\n'],
-    ['k', 'role     '], ['v', 'Back-end developer\n'],
+    ['k', 'role     '], ['v', 'Back-end dev · Network engineer\n'],
     ['k', 'exp      '], ['v', '3 years freelance\n'],
     ['k', 'company  '], ['v', 'Iqbal Media Enterprise\n'],
     ['k', 'study    '], ['v', 'CS (Hons) Networking, 2027\n'],
+    ['k', 'based    '], ['v', 'Alor Setar, Kedah\n'],
     ['k', 'speaks   '], ['v', 'EN · BM · ID · 日本語 · 中文\n\n'],
     ['p', '$ '], ['v', 'cat motto.txt\n'],
     ['c', '"What you give, you will get back more."\n\n'],

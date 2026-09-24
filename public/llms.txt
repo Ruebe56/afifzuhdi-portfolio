@@ -1,0 +1,40 @@
+# Afif Zuhdi
+
+> Back-end developer and network engineer based in Alor Setar, Kedah, Malaysia. 3 years of freelance experience building websites, full-stack web apps, business systems and AI automation. Co-founder of Iqbal Media Enterprise.
+
+## About
+- Name: Afif Zuhdi (full name: Afif Zuhdi bin Suhardi)
+- Location: Alor Setar, Kedah, Malaysia. Works with clients in Kedah and across Malaysia.
+- Roles: Back-End Developer, Network Engineer, Full-Stack Developer
+- Company: Co-founder of Iqbal Media Enterprise (https://iqbalmedia.net/): websites and systems, photography, video editing, cybersecurity
+- Education: Diploma in Computer Systems & Networking, Kolej Poly-Tech MARA (KPTM) Alor Setar, 2023. Bachelor of Computer Science (Hons) in Networking, Universiti Teknologi MARA (UiTM), expected 2027.
+- Languages: English and Malay (fluent), Indonesian (intermediate), Japanese and Mandarin (beginner)
+
+## Services
+- Back-end and full-stack development: APIs, databases, business logic, Vue and React front ends
+- Business systems: booking, finance, registration, membership and POS systems, with online payment gateways
+- AI automation: assistants, automated reports and notifications, automated data entry
+- Network engineering: network setup and troubleshooting, VoIP, servers and hosting
+
+## Experience
+- Co-founder, Iqbal Media Enterprise (2026 to present)
+- Freelance back-end developer (2023 to present)
+- Intern, Network & Technical Department, Wisma Darul Aman, Kedah (July to October 2023)
+
+## Systems built
+- Restaurant POS and QR table ordering
+- Gold shop membership system (members, bonuses, reward points)
+- Pet hotel system (booking, add-on services, pet shop)
+- School registration and billing (automatic invoices, multiple user roles)
+- Mosque finance system (cash in and out, payment reminders, public report, Excel export)
+- Document management system (version history, role-based access)
+
+## Skills
+PHP, Laravel, Python, Django, REST APIs, MySQL/MariaDB, PostgreSQL, Docker, Git, Linux hosting, Vue, React, Tailwind, routing and switching, VoIP, network security.
+
+## Contact
+- Website: https://www.afifzuhdi.com/
+- Email: afif.zuhdi56@gmail.com
+- WhatsApp: +60 11-5153 7598
+- GitHub: https://github.com/Ruebe56
+- LinkedIn: https://www.linkedin.com/in/afif-zuhdi-bin-suhardi-0a23bb278/

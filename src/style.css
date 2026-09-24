@@ -93,6 +93,14 @@
   .chips { display: flex; flex-wrap: wrap; gap: 8px; }
   .chips span { font-size: 13px; padding: 5px 11px; border-radius: 8px; background: rgba(255,255,255,.04); border: 1px solid var(--line2); color: #cfccc4; }
 
+  /* services */
+  .services { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+  .services .card h3 { font-size: 21px; margin-top: 0; }
+  .services__note { color: var(--muted); font-size: 16px; margin-top: 24px; }
+  .services__note .link, .role a.link { color: var(--gold); border-bottom: 1px solid rgba(243,181,74,.35); }
+  @media (max-width: 1000px) { .services { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 620px) { .services { grid-template-columns: 1fr; } }
+
   /* experience */
   .xp { display: grid; gap: 16px; }
   .role { display: grid; grid-template-columns: 220px 1fr; gap: 32px; }
