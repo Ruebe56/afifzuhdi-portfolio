@@ -37,3 +37,8 @@ import './style.css';
 document.querySelectorAll('a[data-lang]').forEach((a) => a.addEventListener('click', () => {
   try { localStorage.setItem('lang', a.dataset.lang); } catch (e) {}
 }));
+
+// Picture protection (his call, 2026-09-26): no right-click menu or drag on pictures. Stops casual
+// saving only — a screenshot still works. Text is deliberately left selectable.
+document.addEventListener('contextmenu', (e) => { if (e.target.closest?.('img, .frame')) e.preventDefault(); });
+document.addEventListener('dragstart', (e) => { if (e.target.closest?.('img, .frame')) e.preventDefault(); });
