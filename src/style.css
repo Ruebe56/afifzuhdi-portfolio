@@ -189,3 +189,6 @@
     *, *::before, *::after { animation: none !important; transition: none !important; }
     .rise { opacity: 1; transform: none; }
   }
+
+/* pictures can't be dragged out or long-press saved (his call, 2026-09-26); text stays selectable */
+img { -webkit-user-drag: none; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; }
