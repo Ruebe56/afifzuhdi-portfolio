@@ -190,5 +190,9 @@
     .rise { opacity: 1; transform: none; }
   }
 
-/* pictures can't be dragged out or long-press saved (his call, 2026-09-26); text stays selectable */
+/* pictures can't be dragged out or long-press saved (his call, 2026-09-26) */
 img { -webkit-user-drag: none; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; }
+/* text can't be selected either (his call, 2026-09-26 afternoon) — EXCEPT the WhatsApp + email links and any
+   form field. Keep this list in step with COPYABLE in main.js. */
+body { user-select: none; -webkit-user-select: none; }
+a[href^="https://wa.me"], a[href^="mailto:"], a[href^="tel:"], input, textarea, select, [contenteditable] { user-select: text; -webkit-user-select: text; }
