@@ -39,6 +39,15 @@ document.querySelectorAll('a[data-lang]').forEach((a) => a.addEventListener('cli
 }));
 
 // Picture protection (his call, 2026-09-26): no right-click menu or drag on pictures. Stops casual
-// saving only — a screenshot still works. Text is deliberately left selectable.
-document.addEventListener('contextmenu', (e) => { if (e.target.closest?.('img, .frame')) e.preventDefault(); });
+// saving only — a screenshot still works.
+// Text protection (his call, 2026-09-26 afternoon): no select / copy / right-click on text, except the WhatsApp
+// + email links and form fields. Keep in step with the user-select rules in style.css.
+const COPYABLE = 'a[href^="https://wa.me"], a[href^="mailto:"], a[href^="tel:"], input, textarea, select, [contenteditable]';
+const copyable = (t) => !!(t && t.closest && t.closest(COPYABLE));
+document.addEventListener('contextmenu', (e) => { if (e.target.closest?.('img, .frame') || !copyable(e.target)) e.preventDefault(); });
+document.addEventListener('selectstart', (e) => { if (!copyable(e.target.nodeType === 1 ? e.target : e.target.parentElement)) e.preventDefault(); });
+['copy', 'cut'].forEach((ev) => document.addEventListener(ev, (e) => {
+  const n = window.getSelection()?.anchorNode;
+  if (!copyable(n && (n.nodeType === 1 ? n : n.parentElement)) && !copyable(document.activeElement)) e.preventDefault();
+}));
 document.addEventListener('dragstart', (e) => { if (e.target.closest?.('img, .frame')) e.preventDefault(); });
