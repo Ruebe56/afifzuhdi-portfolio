@@ -6,7 +6,7 @@ export const person = {
   name: 'Afif Zuhdi bin Suhardi',
   short: 'Afif Zuhdi',
   title: 'Back-End & Full-Stack Developer',
-  subtitle: 'Computer Science (Hons) Networking student, UiTM',
+  subtitle: 'Final-year Computer Science (Hons) Networking student, UiTM Jasin',
   location: 'Alor Setar, Kedah, Malaysia',
   nationality: 'Malaysian',
   phone: '+60 11-5153 7598',
@@ -15,7 +15,7 @@ export const person = {
   web: 'afifzuhdi.com',
   github: 'github.com/Ruebe56',
   linkedin: 'linkedin.com/in/afif-zuhdi-bin-suhardi-0a23bb278',
-  photo: '../public/img/afif-cutout.webp',
+  photo: '../public/img/afif-cutout-3.webp',
   availability: 'Available for internship from March 2027',
 };
 
@@ -23,14 +23,14 @@ export const profile = {
   resume:
     'Back-end and full-stack developer with 3 years of freelance experience building web applications and business systems for clients in Kedah and across Malaysia. Final-year Computer Science (Hons) Networking student at UiTM, with a diploma in computer systems and networking and an internship in a state government network team. Looking for an internship in software development or network engineering from March 2027.',
   cv:
-    'Back-end and full-stack developer from Alor Setar, Kedah, with 3 years of freelance experience building websites, web apps and business systems — booking, finance, registration and membership — with online payments built in. Co-founder of Iqbal Media Enterprise, a startup media company. Currently in the final year of a Computer Science (Hons) degree in Networking at UiTM, after a diploma in computer systems and networking and a four-month internship with the network team at Wisma Darul Aman. I enjoy the parts people don\'t see: databases, business logic, payments and servers. Looking for an internship in software development or network engineering from March 2027.',
+    'Back-end and full-stack developer from Alor Setar, Kedah, with 3 years of freelance experience building websites, web apps and business systems for booking, finance, registration and membership, with online payments built in. Co-founder of Iqbal Media Enterprise, a startup media company. Now in the final semester of a Computer Science (Hons) degree in Networking at UiTM Jasin, after a diploma in computer systems and networking and a four-month internship with the network team at Wisma Darul Aman. I enjoy the parts people don\'t see: databases, business logic, payments and servers. Looking for an internship in software development or network engineering from March 2027.',
 };
 
 export const education = [
   {
     when: 'Expected 2027',
-    what: 'Bachelor of Computer Science (Hons) — Networking',
-    where: 'Universiti Teknologi MARA (UiTM)',
+    what: 'Bachelor of Computer Science (Hons) in Networking',
+    where: 'Universiti Teknologi MARA (UiTM), Jasin, Melaka',
     coursework: [
       'Network Design & Management',
       'Enterprise Networking, Security & Automation (Cisco ENSA)',
@@ -46,7 +46,7 @@ export const education = [
 
 export const experience = [
   {
-    when: 'Early 2026 — Present',
+    when: 'Early 2026 – Present',
     role: 'Co-founder',
     org: 'Iqbal Media Enterprise',
     where: 'Alor Setar, Kedah',
@@ -62,7 +62,7 @@ export const experience = [
     },
   },
   {
-    when: '2023 — Present',
+    when: '2023 – Present',
     role: 'Freelance Back-End Developer',
     org: 'Self-employed',
     where: 'Remote / Kedah',
@@ -73,7 +73,7 @@ export const experience = [
         'Deploy, maintain and support live systems, with automated tests on business-critical logic.',
       ],
       cv: [
-        'Build websites and custom systems — first for students\' projects, and since 2024 for clients from different companies.',
+        'Built websites and custom systems for students\' projects at first, and for business clients since 2024.',
         'Design databases and back-end logic for booking, finance, membership and registration systems, from requirements to deployment.',
         'Integrate Malaysian payment gateways (ToyyibPay, Billplz) and automate invoices, reports and WhatsApp notifications.',
         'Deploy, maintain and support live systems on shared hosting and Docker, with automated tests on business-critical logic such as wallets and payouts.',
@@ -81,7 +81,7 @@ export const experience = [
     },
   },
   {
-    when: 'Jul — Oct 2023',
+    when: 'Jul – Oct 2023',
     role: 'Intern, Network & Technical Department',
     org: 'Wisma Darul Aman',
     where: 'Alor Setar, Kedah',
@@ -101,12 +101,12 @@ export const experience = [
   },
   {
     cvOnly: true,
-    when: '2021 — 2023',
+    when: '2021 – 2023',
     role: 'Laptop Repair & Upgrades',
     org: 'Self-employed',
     where: 'Kedah',
     bullets: {
-      cv: ['Repaired, upgraded and resold laptops and hardware — learning the machine from the inside out.'],
+      cv: ['Repaired, upgraded and resold laptops and other hardware.'],
     },
   },
 ];
@@ -152,19 +152,19 @@ export const projects = [
   },
   {
     name: 'Document Management System',
-    stack: 'Django · PostgreSQL · Docker · REST API',
-    resume: 'Secure company file storage with folder permissions by department, version history, activity log and a token-authenticated REST API.',
+    stack: 'Django 5.2 · PostgreSQL · Docker · REST API',
+    resume: 'Company file storage with folder permissions by department, version history, an activity log, two-factor login and a token-authenticated REST API.',
     cv: [
       'Company file storage with nested folders, per-user and per-department permissions, and full version history.',
-      'Activity log, Telegram notifications, and a JWT-authenticated REST API that reuses the same access rules as the web app.',
+      'Two-factor login, encrypted backups, an activity log, and a JWT-authenticated REST API that applies the same access rules as the web app.',
     ],
   },
   {
     cvOnly: true,
-    name: 'myDay — Habit & Finance Tracker',
+    name: 'myDay: Habit & Finance Tracker',
     stack: 'Vue 3 PWA · PHP · MySQL · Kimi AI',
     cv: [
-      'Personal app I use every day: habits, tasks, workouts, accounts, budgets and savings goals, with multi-user token login.',
+      'Personal app I use daily: habits, tasks, workouts, accounts, budgets and savings goals, with multi-user token login.',
       'Budgets carry forward month to month; workouts log sets and weights with a muscle map; meals can be analysed from a photo with AI.',
     ],
   },
