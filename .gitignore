@@ -2,3 +2,6 @@ node_modules/
 dist/
 docs/
 ms/
+
+# CV source stays local only (scrubbed from public history 2026-11-07)
+cv/
