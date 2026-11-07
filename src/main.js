@@ -23,7 +23,8 @@ import './style.css';
   const render = (upto) => { let out = '', n = 0; for (const [c, t] of lines) { const take = t.slice(0, Math.max(0, upto - n)); n += t.length; if (take) out += `<span class="${c}">${esc(take)}</span>`; if (n >= upto) break; } el.innerHTML = out + '<span class="cursor"></span>'; };
   const total = lines.reduce((a, [, t]) => a + t.length, 0);
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if (reduce || !('IntersectionObserver' in window)) render(total);
+  if (!el) { /* pages without the terminal (the Lab) */ }
+  else if (reduce || !('IntersectionObserver' in window)) render(total);
   else {
     render(0);
     const io = new IntersectionObserver(([e]) => { if (!e.isIntersecting) return; io.disconnect(); let i = 0; (function step() { i += 2; render(i); if (i < total) setTimeout(step, 26); })(); }, { threshold: .4 });

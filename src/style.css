@@ -135,6 +135,19 @@
   .card__link:hover { text-decoration: underline; }
   .work__lab { margin-top: 18px; }
 
+  /* lab page */
+  section.lab-hero { padding-block: 70px 40px; }
+  .lab-hero h1 { font-size: clamp(44px, 6vw, 84px); max-width: 12em; }
+  .lab-hero h1 span { color: var(--dim); }
+  .lab-hero .lead { max-width: 38em; }
+  .lab-intro { color: var(--muted); font-size: 18px; max-width: 46em; margin: -26px 0 36px; }
+  .lab-intro .link { color: var(--gold); border-bottom: 1px solid rgba(243,181,74,.35); }
+  .arch .card { min-height: 0; }
+  .wire { font-size: 12px; color: var(--teal); margin-bottom: 18px; }
+  .wire b { color: var(--gold); font-weight: 500; margin-right: 4px; }
+  .outside { margin-top: 16px; }
+  .rules { margin-top: 16px; }
+
   /* journey */
   .tl { position: relative; padding-left: 36px; }
   .tl::before { content: ""; position: absolute; left: 8px; top: 8px; bottom: 8px; width: 1px; background: linear-gradient(var(--gold), var(--teal) 70%, transparent); }

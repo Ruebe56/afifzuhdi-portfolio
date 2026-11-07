@@ -22,12 +22,19 @@
 - Intern, Network & Technical Department, Wisma Darul Aman, Kedah (July to October 2023)
 
 ## Systems built
-- Restaurant POS and QR table ordering
-- Gold shop membership system (members, bonuses, reward points)
-- Pet hotel system (booking, add-on services, pet shop)
-- School registration and billing (automatic invoices, multiple user roles)
-- Mosque finance system (cash in and out, payment reminders, public report, Excel export)
-- Document management system (version history, role-based access)
+- Lockfold, secure document management (final-year project): malware scanning on upload, version history, folder and department access, audit log, mobile app. Django, PostgreSQL, Docker
+- Restaurant POS and QR table ordering (demo). Laravel, React, MySQL
+- Gold shop membership system (client, live): members, bonuses, reward points, e-wallet. PHP, MySQL
+- School registration and billing (client, live): automatic invoices, multiple user roles, WhatsApp. PHP, MySQL
+- Mosque finance system (client, live): cash in and out, payment reminders, public report, Excel export. Laravel, Vue, MySQL
+- myDay, habit and finance tracker (personal, live at https://myday.afifzuhdi.com/): habits, spending, meals and workouts, AI food-photo analysis. PHP, Vue, MySQL
+- Pet hotel staff system (demo): bookings, room assignment, add-on services, a guard against double-booking the last room. Laravel, Vue, MySQL
+
+## Lab
+https://www.afifzuhdi.com/lab/ (Malay: https://www.afifzuhdi.com/ms/lab/)
+- Alice, his AI partner: runs on Claude, with a file-based memory built on the open-source Project-AI-MemoryCore; senses (screen, voice, desktop control), a phone link over a private network, and a homelab test server
+- Live demos: myDay; Rumah Seri, a 3D scroll-through bungalow tour (Three.js)
+- Experiments: Alice in Minecraft, a locally run voice, a data-driven Blender pipeline for a faculty building
 
 ## Skills
 PHP, Laravel, Python, Django, REST APIs, MySQL/MariaDB, PostgreSQL, Docker, Git, Linux hosting, Vue, React, Tailwind, routing and switching, VoIP, network security.
