@@ -33,7 +33,6 @@
 ## Lab
 https://www.afifzuhdi.com/lab/ (Malay: https://www.afifzuhdi.com/ms/lab/)
 - Alice, his AI partner: runs on Claude, with a file-based memory built on the open-source Project-AI-MemoryCore; senses (screen, voice, desktop control), a phone link over a private network, and a homelab test server
-- Live demos: myDay; Rumah Seri, a 3D scroll-through bungalow tour (Three.js)
 - Experiments: Alice in Minecraft, a locally run voice, a data-driven Blender pipeline for a faculty building
 
 ## Skills

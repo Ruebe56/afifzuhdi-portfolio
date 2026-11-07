@@ -74,12 +74,12 @@ for (const el of root.querySelectorAll('[src], [href]')) {
 // ---- the Lab: lab/index.html -> ms/lab/index.html -----------------------
 const lab = parse(readFileSync('lab/index.html', 'utf8'), { comment: true });
 translate(lab);
-const labTitle = 'Makmal | Afif Zuhdi: Rakan AI, Demo Langsung & Eksperimen';
-const labSocial = 'Alice, rakan AI saya, demo langsung yang boleh dibuka, dan eksperimen di sebaliknya.';
+const labTitle = 'Makmal | Afif Zuhdi: Rakan AI & Eksperimen';
+const labSocial = 'Alice, rakan AI saya, dan eksperimen di sebaliknya.';
 lab.querySelector('html').setAttribute('lang', 'ms');
 lab.querySelector('title').set_content(labTitle);
 const setLabMeta = setMetaOn(lab);
-setLabMeta('meta[name="description"]', 'Makmal Afif Zuhdi, pembangun back-end dan full-stack di Kedah, Malaysia: Alice, rakan AI yang dia gunakan setiap hari, demo langsung yang boleh dibuka, dan eksperimen di sebaliknya.');
+setLabMeta('meta[name="description"]', 'Makmal Afif Zuhdi, pembangun back-end dan full-stack di Kedah, Malaysia: Alice, rakan AI yang dia gunakan setiap hari, dan eksperimen di sebaliknya.');
 setLabMeta('meta[property="og:title"]', 'Makmal | Afif Zuhdi');
 setLabMeta('meta[name="twitter:title"]', 'Makmal | Afif Zuhdi');
 setLabMeta('meta[property="og:description"]', labSocial);
