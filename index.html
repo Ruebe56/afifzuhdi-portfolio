@@ -54,6 +54,7 @@
       <a href="#experience" data-i18n="t003">Experience</a>
       <a href="#work" data-i18n="t004">Work</a>
       <a href="#skills" data-i18n="t005">Skills</a>
+      <a href="./lab/" data-i18n="t160">Lab</a>
       <a class="lang-switch mono" href="./ms/" hreflang="ms" lang="ms" data-lang="ms" aria-label="Baca dalam Bahasa Melayu">BM</a>
       <a class="btn btn--ghost" href="#contact" data-i18n="t006">Contact</a>
     </nav>
@@ -179,50 +180,66 @@
       <p class="sec-k mono" data-i18n="t022">04 / Selected work</p>
       <h2 data-i18n="t030">Systems I've built.</h2>
       <div class="work">
-        <article class="card">
+        <article class="card card--feature" data-tech="Python, Django, PostgreSQL, Docker, REST APIs">
+          <div class="ico"><svg viewBox="0 0 24 24"><path d="M3 6a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><path d="M8 13h8M8 16h5"></path></svg></div>
+          <span class="status status--fyp" data-i18n="t166">Final-year project</span>
+          <span class="kind" data-i18n="t072">Security · Documents</span>
+          <h3 data-i18n="t078">Lockfold: Secure Document Management</h3>
+          <p data-i18n="t084">My final-year project: a document system a small office can run on its own server. Every upload is scanned for malware, every version is kept, access is set per folder and department, and every action is logged. It comes with a mobile app.</p>
+          <div class="chips"><span data-i18n="t105">Version history</span><span data-i18n="t106">Role-based access</span><span data-i18n="t161">Malware scanning</span><span data-i18n="t107">Audit log</span><span data-i18n="t162">Mobile app</span><span data-i18n="t108">REST API</span></div>
+        </article>
+        <article class="card" data-tech="Laravel, React, Tailwind, MySQL / MariaDB, Docker, REST APIs, Payment gateways">
           <div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect><path d="M14 14h3v3h-3zM20 14v.01M14 20h.01M17 20h4M20 17v3"></path></svg></div>
+          <span class="status status--demo" data-i18n="t167">Demo</span>
           <span class="kind" data-i18n="t067">Food & beverage</span>
           <h3 data-i18n="t073">Restaurant POS & QR Ordering</h3>
           <p data-i18n="t079">Customers scan a QR at their table to order. The kitchen and counter see it instantly, with a full POS for staff.</p>
           <div class="chips"><span data-i18n="t085">QR table ordering</span><span data-i18n="t086">Menu management</span><span data-i18n="t087">POS</span><span data-i18n="t088">Sales reports</span></div>
         </article>
-        <article class="card">
+        <article class="card" data-tech="PHP, MySQL / MariaDB, Tailwind, Payment gateways">
           <div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="9" r="6"></circle><path d="M9.5 9h5M12 6.5v5"></path><path d="M8.5 14.5 7 22l5-3 5 3-1.5-7.5"></path></svg></div>
+          <span class="status status--client" data-i18n="t168">Client · live</span>
           <span class="kind" data-i18n="t068">Retail · Gold</span>
           <h3 data-i18n="t074">Gold Shop Membership System</h3>
           <p data-i18n="t080">A membership platform for a gold retailer, with members, bonuses and reward points tracked automatically.</p>
           <div class="chips"><span data-i18n="t089">Membership</span><span data-i18n="t090">Bonuses</span><span data-i18n="t091">Reward points</span><span data-i18n="t092">E-wallet</span></div>
         </article>
-        <article class="card">
-          <div class="ico"><svg viewBox="0 0 24 24"><circle cx="7" cy="8" r="2"></circle><circle cx="12" cy="5.5" r="2"></circle><circle cx="17" cy="8" r="2"></circle><path d="M12 11c-3 0-5.5 3.5-5.5 6 0 1.7 1.5 2.5 3 2 1.2-.4 1.8-.6 2.5-.6s1.3.2 2.5.6c1.5.5 3-.3 3-2 0-2.5-2.5-6-5.5-6z"></path></svg></div>
-          <span class="kind" data-i18n="t069">Pets · Hospitality</span>
-          <h3 data-i18n="t075">Pet Hotel System</h3>
-          <p data-i18n="t081">Book a stay for your pet, add grooming and other services, and shop pet supplies, all in one place.</p>
-          <div class="chips"><span data-i18n="t093">Room booking</span><span data-i18n="t094">Add-on services</span><span data-i18n="t095">Pet shop</span><span data-i18n="t096">Payments</span></div>
-        </article>
-        <article class="card">
+        <article class="card" data-tech="PHP, MySQL / MariaDB">
           <div class="ico"><svg viewBox="0 0 24 24"><path d="M2 9l10-5 10 5-10 5z"></path><path d="M6 11v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"></path><path d="M22 9v6"></path></svg></div>
+          <span class="status status--client" data-i18n="t169">Client · live</span>
           <span class="kind" data-i18n="t070">Education</span>
           <h3 data-i18n="t076">School Registration & Billing</h3>
           <p data-i18n="t082">Automated student registration where invoices are created and sent automatically, with separate access for each user type.</p>
           <div class="chips"><span data-i18n="t097">Online registration</span><span data-i18n="t098">Auto invoices</span><span data-i18n="t099">Multiple user roles</span><span data-i18n="t100">WhatsApp</span></div>
         </article>
-        <article class="card">
+        <article class="card" data-tech="Laravel, Vue, MySQL / MariaDB">
           <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3c-3 2.5-5 4.5-5 7h10c0-2.5-2-4.5-5-7z"></path><path d="M5 10h14v11H5z"></path><path d="M10 21v-5h4v5M3 21h18"></path></svg></div>
+          <span class="status status--client" data-i18n="t170">Client · live</span>
           <span class="kind" data-i18n="t071">Community · Finance</span>
           <h3 data-i18n="t077">Mosque Finance System</h3>
           <p data-i18n="t083">Tracks every ringgit in and out, sends payment reminders, and publishes a clean public report for the community.</p>
           <div class="chips"><span data-i18n="t101">Cash in / out</span><span data-i18n="t102">Payment reminders</span><span data-i18n="t103">Public report</span><span data-i18n="t104">Excel export</span></div>
         </article>
-        <article class="card">
-          <div class="ico"><svg viewBox="0 0 24 24"><path d="M3 6a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><path d="M8 13h8M8 16h5"></path></svg></div>
-          <span class="kind" data-i18n="t072">Business · Documents</span>
-          <h3 data-i18n="t078">Document Management System</h3>
-          <p data-i18n="t084">Secure storage for company files, with folders, version history and access by department.</p>
-          <div class="chips"><span data-i18n="t105">Version history</span><span data-i18n="t106">Role-based access</span><span data-i18n="t107">Activity log</span><span data-i18n="t108">REST API</span></div>
+        <article class="card" data-tech="PHP, Vue, MySQL / MariaDB, REST APIs">
+          <div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="16" rx="2"></rect><path d="M3 9.5h18M8 3v3M16 3v3"></path><path d="m8.5 14.5 2.2 2.2 4.8-4.8"></path></svg></div>
+          <span class="status status--live" data-i18n="t171">Personal · live</span>
+          <span class="kind" data-i18n="t172">Health · Finance</span>
+          <h3 data-i18n="t173">myDay: Habit & Finance Tracker</h3>
+          <p data-i18n="t174">My own daily app, used every day: habits, spending, meals and workouts in one place, with AI that reads a food photo and estimates its nutrition.</p>
+          <div class="chips"><span data-i18n="t175">Habits</span><span data-i18n="t176">Spending</span><span data-i18n="t177">Meals & workouts</span><span data-i18n="t178">AI photo analysis</span></div>
+          <a class="card__link" href="https://myday.afifzuhdi.com/" target="_blank" rel="noopener" data-i18n="t179">Open myDay ↗</a>
+        </article>
+        <article class="card" data-tech="Laravel, Vue, MySQL / MariaDB">
+          <div class="ico"><svg viewBox="0 0 24 24"><circle cx="7" cy="8" r="2"></circle><circle cx="12" cy="5.5" r="2"></circle><circle cx="17" cy="8" r="2"></circle><path d="M12 11c-3 0-5.5 3.5-5.5 6 0 1.7 1.5 2.5 3 2 1.2-.4 1.8-.6 2.5-.6s1.3.2 2.5.6c1.5.5 3-.3 3-2 0-2.5-2.5-6-5.5-6z"></path></svg></div>
+          <span class="status status--demo" data-i18n="t180">Demo</span>
+          <span class="kind" data-i18n="t069">Pets · Hospitality</span>
+          <h3 data-i18n="t075">Pet Hotel Staff System</h3>
+          <p data-i18n="t081">A front-desk system for a pet hotel: bookings, room assignment and add-on services, with a guard that stops two staff from booking the last room at the same moment.</p>
+          <div class="chips"><span data-i18n="t093">Room booking</span><span data-i18n="t094">Add-on services</span><span data-i18n="t095">Staff roles</span><span data-i18n="t096">Double-booking guard</span></div>
         </article>
       </div>
       <p class="work__note mono" data-i18n="t109">// Happy to walk through any of these in person.</p>
+      <p class="work__lab"><a class="btn btn--ghost" href="./lab/" data-i18n="t182">More in the Lab: my AI partner, live demos and experiments →</a></p>
     </section>
 
     <section class="wrap block" id="journey">
@@ -230,10 +247,10 @@
       <h2 data-i18n="t031">Six years, <span>one step at a time.</span></h2>
       <div class="tl">
         <div class="ev"><div class="ev__y" data-i18n="t110">2020</div><div><h3 data-i18n="t115">First real interest in computers</h3><p data-i18n="t120">Where it started: taking things apart to understand how they work.</p></div></div>
-        <div class="ev"><div class="ev__y" data-i18n="t111">2021 – 2023</div><div><h3 data-i18n="t116">Laptop repair, upgrades & hardware</h3><p data-i18n="t121">Repair and upgrade gigs, and reselling hardware: learning the machine from the inside out.</p></div></div>
         <div class="ev"><div class="ev__y" data-i18n="t112">2023</div><div><h3 data-i18n="t117">Diploma, internship, first freelance work</h3><p data-i18n="t122">Graduated, interned with a government network team, and started building websites and systems.</p></div></div>
         <div class="ev"><div class="ev__y" data-i18n="t113">2024</div><div><h3 data-i18n="t118">Real clients, and a startup invitation</h3><p data-i18n="t123">Started working with clients from different companies, and was invited to join a startup.</p></div></div>
-        <div class="ev ev--now"><div class="ev__y" data-i18n="t114">Early 2026</div><div><h3 data-i18n="t119">Co-founded Iqbal Media Enterprise</h3><p data-i18n="t124">Our own startup media company, focused on websites, systems, media and photography.</p></div></div>
+        <div class="ev"><div class="ev__y" data-i18n="t114">Early 2026</div><div><h3 data-i18n="t119">Co-founded Iqbal Media Enterprise</h3><p data-i18n="t124">Our own startup media company, focused on websites, systems, media and photography.</p></div></div>
+        <div class="ev ev--now"><div class="ev__y" data-i18n="t163">Late 2026</div><div><h3 data-i18n="t164">Final year, and Lockfold</h3><p data-i18n="t165">The final semester of my degree, building Lockfold, a secure document system, as my final-year project.</p></div></div>
       </div>
     </section>
 
@@ -245,10 +262,11 @@
         <article class="card"><span class="yr" data-i18n="t126">Expected 2027</span><h3 data-i18n="t128">Bachelor of Computer Science (Hons) — Networking</h3><p data-i18n="t130">Universiti Teknologi MARA (UiTM)</p></article>
       </div>
       <div class="skills">
-        <article class="card"><h4 data-i18n="t131">Back-end</h4><div class="chips"><span>PHP</span><span>Laravel</span><span>Python</span><span>Django</span><span>REST APIs</span><span>Payment gateways</span></div></article>
-        <article class="card"><h4 data-i18n="t132">Data & infrastructure</h4><div class="chips"><span>MySQL / MariaDB</span><span>PostgreSQL</span><span>Docker</span><span>Git</span><span>Linux hosting</span></div></article>
-        <article class="card"><h4 data-i18n="t133">Front-end & networking</h4><div class="chips"><span>Vue</span><span>React</span><span>Tailwind</span><span>Routing & switching</span><span>VoIP</span><span>Network security</span></div></article>
+        <article class="card"><h4 data-i18n="t131">Back-end</h4><div class="chips"><span>PHP <b class="n">3</b></span><span>Laravel <b class="n">3</b></span><span>Python <b class="n">1</b></span><span>Django <b class="n">1</b></span><span>REST APIs <b class="n">3</b></span><span>Payment gateways <b class="n">2</b></span></div></article>
+        <article class="card"><h4 data-i18n="t132">Data & infrastructure</h4><div class="chips"><span>MySQL / MariaDB <b class="n">6</b></span><span>PostgreSQL <b class="n">1</b></span><span>Docker <b class="n">2</b></span><span>Git</span><span>Linux hosting</span></div></article>
+        <article class="card"><h4 data-i18n="t133">Front-end & networking</h4><div class="chips"><span>Vue <b class="n">3</b></span><span>React <b class="n">1</b></span><span>Tailwind <b class="n">2</b></span><span>Routing & switching</span><span>VoIP</span><span>Network security</span></div></article>
       </div>
+      <p class="skills__note mono" data-i18n="t181">// The number on a skill = how many of the projects above use it.</p>
       <article class="card" style="margin-top:16px">
         <h4 data-i18n="t134">Languages</h4>
         <div class="langs">

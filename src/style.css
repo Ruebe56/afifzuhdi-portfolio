@@ -125,6 +125,15 @@
   .work h3 { margin-top: 6px; }
   .work .chips { margin-top: auto; padding-top: 20px; }
   .work__note { color: var(--dim); font-size: 14px; margin-top: 22px; }
+  .work .card--feature { grid-column: 1 / -1; min-height: 0; }
+  .work .card--feature h3 { font-size: 30px; }
+  .work .card--feature p { max-width: 46em; }
+  .status { position: absolute; top: 30px; right: 30px; font: 500 11px "IBM Plex Mono", monospace; letter-spacing: .06em; text-transform: uppercase; padding: 5px 10px; border-radius: 999px; border: 1px solid var(--line2); color: var(--muted); }
+  .status--client, .status--live { color: var(--teal); border-color: rgba(63,209,184,.35); background: rgba(63,209,184,.06); }
+  .status--fyp { color: var(--gold); border-color: rgba(243,181,74,.35); background: rgba(243,181,74,.06); }
+  .card__link { margin-top: 18px; font-weight: 600; color: var(--gold); align-self: flex-start; }
+  .card__link:hover { text-decoration: underline; }
+  .work__lab { margin-top: 18px; }
 
   /* journey */
   .tl { position: relative; padding-left: 36px; }
@@ -145,6 +154,8 @@
   .langs { margin-top: 16px; display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; }
   .lang b { display: block; font: 600 18px "Bricolage Grotesque Variable", sans-serif; }
   .lang span { font-size: 13px; color: var(--dim); }
+  .chips span b.n { font: 500 11px "IBM Plex Mono", monospace; color: var(--gold); margin-left: 6px; }
+  .skills__note { color: var(--dim); font-size: 13px; margin-top: 12px; }
   .meter { display: flex; gap: 4px; margin-top: 10px; }
   .meter i { flex: 1; height: 5px; border-radius: 3px; background: rgba(255,255,255,.08); }
   .meter i.on { background: linear-gradient(90deg, var(--gold), #ffd98a); }
