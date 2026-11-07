@@ -15,7 +15,7 @@ import './style.css';
     ['k', 'based    '], ['v', 'Alor Setar, Kedah\n'],
     ['k', 'speaks   '], ['v', 'EN · BM · ID · 日本語 · 中文\n\n'],
     ['p', '$ '], ['v', 'cat motto.txt\n'],
-    ['c', '"What you give, you will get back more."\n\n'],
+    ['c', '"You give more, you will get more."\n\n'],
     ['p', '$ ']
   ];
   const el = document.getElementById('term');
